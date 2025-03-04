@@ -4,14 +4,14 @@ Official PyTorch implementation of Inversion-based Measure of Memorization.
 
 ![teaser](assets/teaser.png)
 
-This repository follows the implemetations of codebases [pytorch-ddpm](https://github.com/w86763777/pytorch-ddpm), [latent-diffusion](https://github.com/CompVis/latent-diffusion), [stable-diffusion-v1](https://github.com/CompVis/stable-diffusion) and [stable-diffusion-v2](https://github.com/Stability-AI/stablediffusion). *We also modify some source codes, including introducing [xformers](https://github.com/facebookresearch/xformers) support for stable-diffusion-v1 and fixing bugs in DDIM sampler.*
+This repository follows the implemetations of codebases [pytorch-ddpm](https://github.com/w86763777/pytorch-ddpm), [latent-diffusion](https://github.com/CompVis/latent-diffusion), [stable-diffusion-v1](https://github.com/CompVis/stable-diffusion), [stable-diffusion-v2](https://github.com/Stability-AI/stablediffusion) and [stable-diffusion-v3](https://github.com/Stability-AI/sd3.5). *We also modify some source codes, including introducing [xformers](https://github.com/facebookresearch/xformers) support for stable-diffusion-v1 and fixing bugs in DDIM sampler.*
 
 ## Requirements
 
 Go to the specific directory and create an anaconda environment with:
 
 ```shell
-cd ddpm[latent-diffusion, stable-diffusion-v1, stable-diffusion-v2]
+cd ddpm[latent-diffusion, stable-diffusion-v1, stable-diffusion-v2, stable-diffusion-v3]
 conda env create -f environment.yaml
 ```
 
@@ -64,7 +64,7 @@ python inversion -dp /path/to/dataset --ckpt_file /path/to/pretrained_model
 
 ### Stable Diffusion
 
-Download pretrained [SD v1.4](https://github.com/CompVis/stable-diffusion) and [SD v2.1](https://github.com/Stability-AI/stablediffusion), and then run:
+Download pretrained [SD v1.4](https://github.com/CompVis/stable-diffusion), [SD v2.1](https://github.com/Stability-AI/stablediffusion) and [SD v3.5](https://huggingface.co/stabilityai/stable-diffusion-3.5-medium/tree/main), and then run:
 
 ```shell
 python inversion -dp /path/to/dataset
