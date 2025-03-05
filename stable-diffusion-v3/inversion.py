@@ -319,7 +319,7 @@ class Trainer(object):
 
         if success:
             with torch.inference_mode():
-                invmm = 0.5 * torch.sum(mu ** 2 + logvar.exp() - logvar - 1).cpu()
+                invmm = 0.5 * torch.mean(mu ** 2 + logvar.exp() - logvar - 1).cpu()
         else:
             invmm = torch.tensor(float("inf"))
 
