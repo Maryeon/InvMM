@@ -39,6 +39,7 @@ The subsets of LAION used in the paper can be downloaded [here](https://drive.go
 | LDM     | CelebAHQ FFHQ | https://drive.google.com/drive/folders/1eeO9E4zLTdy1PfPA55YhIwclS9XBF-UI?usp=sharing |
 | SD v1.4 | LAION Subset  | https://drive.google.com/drive/folders/1TNvSc6JMvCqZJ4-9FO-A4-bwjYVReOIc?usp=sharing |
 | SD v2.1 | LAION Subset  | https://drive.google.com/drive/folders/1qiFMpUfLdZdLWRV-TkmPJ1-AEMmUsF07?usp=sharing |
+| SD v3.5 | LAION Subset  | https://drive.google.com/drive/folders/1bjXDH8iQOb5F-ADBBModB_vmIMrGbhvg?usp=sharing |
 
 ## Inversion
 
