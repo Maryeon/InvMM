@@ -1,6 +1,6 @@
 # InvMM
 
-Official PyTorch implementation of our paper [An Inversion-based Measure of Memorization for Diffusion Models](An Inversion-based Measure of Memorization for Diffusion Models). Note that we are actively improving our paper (till it get published), so that there might be some inconsistence between this updated repository and the results presented in the old version of paper.
+Official PyTorch implementation of our paper [An Inversion-based Measure of Memorization for Diffusion Models](https://arxiv.org/abs/2405.05846). Note that we are actively improving our paper (till it get published), so that there might be some inconsistence between this updated repository and the results presented in the old version of paper.
 
 ![teaser](assets/teaser.png)
 
